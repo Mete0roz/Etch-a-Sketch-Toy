@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1px;
+    background-color: #e6e6fa;
+    height: 100vh;
+}
+#pattern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px red;
+    border-radius: 100px;
+    background-color: #ca3131;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #e6e6fa;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    width: 125px;
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: #002776;
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: 20px;
+    border-color: white;
+}
+
+#colorful{
+    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
+
+}
+
+#dark{
+    background-image: linear-gradient(45deg, black, grey);
+
+}
+
+#brazilian{
+    background-image: linear-gradient(45deg, #002776 27%, #FFD700, #009739 );
+}
+
+#clean{
+    background-image: linear-gradient(45deg, #ADD8E6, #E0FFFF  );
+
+}
+
+#size{
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(45deg, #f0e68c, #e6e6fa );
+    width: 125px;
+    color: #002776;
+    border-radius: 20px;
+    font-family: 'Archivo Black', sans-serif;;
+    border-color: white;
+}
+
+option{
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(45deg, #f0e68c, #e6e6fa );
+    width: 125px;
+    color: #002776;
+    -webkit-text-stroke: 1px #002776;    
+}
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 700px;
+    height: 600px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: #e6e6fa;
+}
+
+.class{
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid black;
+}
+
+#erase{
+    text-shadow: none;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+#git{
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    color: #002776;
+    font-family: 'Alfa Slab One', sans-serif;;
+}
