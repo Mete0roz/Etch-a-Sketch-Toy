@@ -1,5 +1,7 @@
 # Etch-a-Sketch-Toy  
 
+https://mete0roz.github.io/Etch-a-Sketch-Toy/
+
 Etch-a-Sketch is a classic drawing toy where you can create sketches using simple controls. This project replicates the experience in a digital format, allowing users to draw and have fun.  
 
 ## Objectives  
